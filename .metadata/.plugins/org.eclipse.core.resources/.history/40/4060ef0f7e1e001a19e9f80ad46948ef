@@ -33,7 +33,7 @@ public class BooksController
 	
 	
 	//add a book
-	
+	//@GetMapping("/create")
 	@RequestMapping(value ="/",method=RequestMethod.POST,consumes={"application/json"})
 	public Book Create(@RequestBody Book book)
 	{
