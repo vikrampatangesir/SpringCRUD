@@ -1,0 +1,20 @@
+package com.softedge.main;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class EmailNotificationService implements INotificationService
+{
+       
+	
+      @Value("${email.username}")
+	  private String email;
+	  @Value("${email.password}")
+	  private String password;
+	  
+	@Override
+	public void sendMsgString(String toUser, String msgBody)
+	{
+           		
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class UserController {
+
+	@GetMapping("/user")
+	public String users (Model model)
+	{
+          model.addAttribute("users",getUserList() );	
+         	
+          return "productList";
+		
+	}
+	
+	
+	private listUsers getUserList()
+	{
+
+     List<Product> productList=new ArrayList<Product>();
+     
+     
+     
+        return (listUsers) userList;
+	}
+}
+	
+	
+	

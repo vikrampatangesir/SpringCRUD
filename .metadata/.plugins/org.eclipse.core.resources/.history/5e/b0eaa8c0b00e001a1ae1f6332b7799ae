@@ -1,0 +1,8 @@
+package com.softedge.main;
+
+public class Mycontrollerr
+{
+	User user=new User("vikram", 20, "vikram@gmail.com");
+	
+
+}

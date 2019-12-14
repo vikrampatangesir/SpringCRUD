@@ -1,0 +1,12 @@
+package com.softedge.main;
+
+public class EmailNotificationService implements INotificationService
+{
+
+	@Override
+	public void sendMsgString(String toUser, String msgBody)
+	{
+           		
+	}
+
+}

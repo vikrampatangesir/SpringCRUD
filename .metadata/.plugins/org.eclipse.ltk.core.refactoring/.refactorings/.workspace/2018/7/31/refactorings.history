@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/spring_intro" element2="/spring-full-stack" element3="/spring-full-stackApplication" element4="/springfinalproject-employee-app" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1532834430060"/>&#x0A;<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/spring_intro" element2="/spring-full-stack" element3="/spring-full-stackApplication" element4="/springfinalproject-employee-app" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1532835791880"/>
+</session>

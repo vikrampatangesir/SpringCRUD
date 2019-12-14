@@ -1,0 +1,18 @@
+package com.vikram.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Book 
+{
+	
+	private Long id;
+	private String title;
+	private  String author;
+	private Double price;
+	private
+	
+	
+	
+
+}

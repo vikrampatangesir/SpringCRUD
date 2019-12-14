@@ -1,0 +1,14 @@
+package com.softedge.main;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class SMSNotificationService 
+{
+	
+	
+	@Value("${sms.username}")
+	  private String email;
+	 @Value("${sms.password}")
+	  private String password;
+
+}

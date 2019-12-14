@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1  th:text="${company_name}">compnay Name</h1>
+
+   <table>
+   <th>
+	   <td>Product Id</td>
+	   <td>Product name </td>
+	   <td>Product price</td>
+	   <td>Product barcode</td>
+	   <td>expiry Date</td>
+   </th>
+   
+   
+    <tr th:each="product :  ${Products}">
+	   <td th:text="${product:productId}">1123</td>
+	   <td th:text="${product:productname}"></td>
+	   <td th:text="${product:barcode}"></td>
+	   <td th:text="${product:price}"></td>
+	   <td th:text="${product:expDate}"></td>
+  
+   </tr>
+   </table>
+</body>
+</html>
+   
+    
+   
+ 

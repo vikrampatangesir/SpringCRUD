@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1  th:text="${company_name}">compnay Name</h1>
+
+   <table>
+   <th>
+   <td>Product Id</td>
+   <td>Product name </td>
+   <td>Product price</td>
+   <td>Product barcode</td>
+   <td>expiry Date</td>
+   </th>
+   
+   
+   
+   </table>
+</body>
+</html>
+   
+    
+   
+ 

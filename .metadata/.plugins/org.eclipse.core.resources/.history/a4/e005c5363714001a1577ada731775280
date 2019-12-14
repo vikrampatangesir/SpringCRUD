@@ -1,0 +1,33 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class ProductController<listProducts> 
+{
+	
+	@GetMapping
+	public String products ()
+	{
+		
+		
+	}
+	
+	
+	private listProducts getProductList()
+	{
+
+     List<Product> productList=new ArrayList<Product>();
+     
+     
+        return (listProducts) productList;
+	}
+}
+	
+	
+	

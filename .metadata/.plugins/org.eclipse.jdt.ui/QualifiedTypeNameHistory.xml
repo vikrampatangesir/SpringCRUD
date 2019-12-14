@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="com.pradeep.spring.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="com.pradeep.spring.dao.EmployeeMapper"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.softedge.main.NotificationService"/>
+<fullyQualifiedTypeName name="com.softedge.main.User"/>
+<fullyQualifiedTypeName name="com.softedge.main.Inotificationservice"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.softedge.main.INotificationService"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+</qualifiedTypeNameHistroy>

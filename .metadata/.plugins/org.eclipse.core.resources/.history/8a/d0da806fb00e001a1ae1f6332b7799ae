@@ -1,0 +1,9 @@
+package com.softedge.main;
+
+public interface INotificationService
+{
+	
+	 public void sendMsgString(String toUser,String msgBody);
+	
+
+}

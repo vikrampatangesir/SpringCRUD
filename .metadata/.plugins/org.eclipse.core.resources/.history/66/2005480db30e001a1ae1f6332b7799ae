@@ -1,0 +1,20 @@
+package com.softedge.main;
+
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+@Service
+@Primary
+public class EmailNotificationService implements INotificationService
+{
+       
+	
+      
+	@Override
+	public void sendMsgString(String toUser, String msgBody)
+	{
+           		System.out.println("From email notificationservice");
+	}
+
+}

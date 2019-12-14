@@ -1,0 +1,17 @@
+package com.softedge.main;
+
+import org.springframework.beans.factory.annotation.Value;
+
+@service
+public class EmailNotificationService implements INotificationService
+{
+       
+	
+      
+	@Override
+	public void sendMsgString(String toUser, String msgBody)
+	{
+           		System.out.println("From email notificationservice");
+	}
+
+}

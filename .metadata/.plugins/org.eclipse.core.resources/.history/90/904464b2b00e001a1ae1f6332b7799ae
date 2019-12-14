@@ -1,0 +1,6 @@
+server.port=8081
+email.username=vikram
+email.password=mypassword
+email.provider=smtp.gmail
+email.port=3454
+

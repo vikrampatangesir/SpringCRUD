@@ -1,0 +1,23 @@
+package com.vikram.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.vikram.model.Book;
+
+@RestController
+public class BooksController 
+{
+	
+	
+	public List<Book> listBooks()
+	{
+		      
+	      List<Book> books =new Arraylist<Book>();
+		    return null;
+		
+	}
+
+	
+}

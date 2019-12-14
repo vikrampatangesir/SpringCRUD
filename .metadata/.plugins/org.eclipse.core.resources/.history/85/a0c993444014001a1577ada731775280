@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table>
+		<th>
+			<td>id</td>
+			<td>name</td>
+			<td>address</td>
+		
+		</th>
+
+
+		<tr th:each="product :  ${Products}">
+			<td th:text="${product.productid}">1123</td>
+			<td th:text="${product.productname}">jhj</td>
+			<td th:text="${product.barcode}">jhjh</td>
+			<td th:text="${product.price}">jhjh</td>
+			<td th:text="${product.expDate}">jhjh</td>
+
+		</tr>
+		
+	</table>
+
+</body>
+</html>

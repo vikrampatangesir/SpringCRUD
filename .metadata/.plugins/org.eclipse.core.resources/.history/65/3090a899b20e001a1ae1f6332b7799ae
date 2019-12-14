@@ -1,0 +1,41 @@
+package com.softedge.main;
+
+import javax.management.Notification;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Mycontroller
+{
+
+	User user=new User("vikram", 20, "vikram@gmail.com");
+	
+	@Autowired
+	INotificationService emailNotificationService;
+	@Autowired
+	INotificationService SMSNotificationService;
+	
+	
+	
+	/*@Autowired
+	NotificationService notification;
+	@Autowired
+	NotificationService notification1;*/
+	
+	
+    @GetMapping("/test")
+	public User getGreeting()
+	{
+    	SMSNotificationService.sendMsgString("vikram", "123");
+    	emailNotificationService.sendMsgString("john","456" );
+    	return  user;
+    	
+		
+	}
+    
+    
+
+}
