@@ -14,14 +14,15 @@ public class Application {
 	
 	
 	
+	@Autowired
+	private BooksRepository booksRepository;
+	
 	
 	public static void main(String[] args)
 	{
-		
 		SpringApplication.run(Application.class, args);
+		
 		System.out.println("in main class");
-		
-		
 	}
 	
 	

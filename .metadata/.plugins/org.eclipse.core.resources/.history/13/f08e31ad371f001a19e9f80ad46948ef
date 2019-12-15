@@ -15,10 +15,7 @@ public class Book
 	private Double price;
 	
 	
-	private Book()
-	{
-		
-	}
+	private Book(){}
 	
 	public Book(Long id, String title, String author, Double price)
 	{

@@ -2,6 +2,7 @@ package com.vikram.main.controller;
 
 import java.util.List;
 
+import javax.persistence.Id;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,12 +42,12 @@ public class BooksController
 	
 	//update book
 	@RequestMapping(value ="/{id}",method=RequestMethod.PATCH,consumes={"application/json"})
-	public Book updateBook(@PathVariable("id") Long id,  @RequestBody Book book)
+	public Book updateBook(@PathVariable("id")  Long id  @RequestBody Book book)
 	{   
-		  Book book1=bookRepo.findById(id).get();
-		  book1.setAuthor(book1.getAuthor());
-		  book1.setTitle(book1.getTitle());
-		  return bookRepo.save(book1);
+		  Book book=bookRepo.findById(id).get();
+		  book.setAuthor(book.getAuthor());
+		  book.setTitle(book.getTitle());
+		  return bookRepo.save(book);
 		  	 
 	}
 	
