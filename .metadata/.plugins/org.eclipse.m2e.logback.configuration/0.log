@@ -3209,3 +3209,10 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Failure to fin
 2019-12-15 18:23:05,300 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-15 18:23:05,301 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-12-15 18:23:05,302 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-15 18:23:05,305 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-15 18:23:05,305 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin\Documents\workspace-sts-3.8.3.RELEASE\SpringCRUD\src\test\resources
+2019-12-15 18:25:07,521 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-15 18:25:07,522 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-15 18:25:07,524 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-15 18:25:07,526 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-15 18:25:07,526 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin\Documents\workspace-sts-3.8.3.RELEASE\SpringCRUD\src\test\resources

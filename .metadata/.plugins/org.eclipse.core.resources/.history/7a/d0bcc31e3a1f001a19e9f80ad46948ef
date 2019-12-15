@@ -43,10 +43,10 @@ public class BooksController
 	@RequestMapping(value ="/{id}",method=RequestMethod.PATCH,consumes={"application/json"})
 	public Book updateBook(@PathVariable("id") Long id,  @RequestBody Book book)
 	{   
-		  Book booktoUpdate=bookRepo.findById(id).get();
-		  booktoUpdate.setAuthor(booktoUpdate.getAuthor());
-		  booktoUpdate.setTitle(booktoUpdate.getTitle());
-		  return bookRepo.save(booktoUpdate);
+		  Book book1=bookRepo.findById(id).get();
+		  book1.setAuthor(book1.getAuthor());
+		  book1.setTitle(book1.getTitle());
+		  return bookRepo.save(book1);
 		  	 
 	}
 	
