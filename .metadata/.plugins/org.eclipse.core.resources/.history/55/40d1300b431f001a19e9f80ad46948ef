@@ -1,0 +1,26 @@
+package com.vikram.main.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.vikram.main.model.Author;
+import com.vikram.main.model.Book;
+import com.vikram.main.repository.BooksRepository;
+
+public class AuthorController 
+{
+	
+	@Autowired
+	BooksRepository booksRepository;
+	
+	
+	@GetMapping("/")
+	public List<Author> listAuthors()
+	{
+		
+	}
+	
+	
+}

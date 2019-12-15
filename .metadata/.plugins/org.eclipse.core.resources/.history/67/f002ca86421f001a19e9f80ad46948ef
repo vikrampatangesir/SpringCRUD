@@ -1,0 +1,17 @@
+package com.vikram.main.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.vikram.main.repository.BooksRepository;
+
+public class AuthorController 
+{
+	
+	@Autowired
+	BooksRepository booksRepository;
+	
+	
+	
+	
+	
+}

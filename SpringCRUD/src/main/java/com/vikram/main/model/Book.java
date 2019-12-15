@@ -1,8 +1,13 @@
 package com.vikram.main.model;
 
+import java.util.List;
+
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Book 
@@ -11,16 +16,28 @@ public class Book
 	@GeneratedValue
 	private Long id;
 	private String title;
-	private  String author;
+	
+	@ManyToOne
+	private  Author author;
 	private Double price;
 	
+	@ElementCollection
+	private List<String> tags;
 	
+	public List<String> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<String> tags) {
+		this.tags = tags;
+	}
+
 	private Book()
 	{
-		
+		  
 	}
 	
-	public Book(Long id, String title, String author, Double price)
+	public Book(Long id, String title, Author author, Double price)
 	{
 		super();
 		this.id = id;
@@ -50,12 +67,12 @@ public class Book
 	}
 
 
-	public String getAuthor() {
+	public Author getAuthor() {
 		return author;
 	}
 
 
-	public void setAuthor(String author) {
+	public void setAuthor(Author author) {
 		this.author = author;
 	}
 
