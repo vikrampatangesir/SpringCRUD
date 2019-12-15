@@ -47,13 +47,11 @@ public class BooksController
 	}
 	
 	
-	
-	//delete book
-	@RequestMapping(value ="/{id}",method=RequestMethod.DELETE)
+	@RequestMapping(value ="/",method=RequestMethod.DELETE)
 	public String deleteBook(@PathVariable("id") long id)
 	{
-		     bookRepo.deleteById(id);
-		      return " delete";
+		  Book newBook=new Book(null, "five point someone","Chetan Bhagat", null);
+		  return " delete";
 		  	 
 	}
 	

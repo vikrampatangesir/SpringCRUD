@@ -30,7 +30,7 @@ public class Application {
 	public void createData()
 	{
 		
-		  
+		   new Book(1, "abc", "xyz", 250.00);
 		   
 ;	}
 

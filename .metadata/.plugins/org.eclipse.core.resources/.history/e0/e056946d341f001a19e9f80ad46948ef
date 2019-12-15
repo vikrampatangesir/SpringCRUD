@@ -34,6 +34,7 @@ public class BooksController
 	@RequestMapping(value ="/",method=RequestMethod.POST,consumes={"application/json"})
 	public Book Create(@RequestBody Book book)
 	{
+		  Book newBook=new Book(null, "five point someone","Chetan Bhagat", null);
 		  return bookRepo.save(book);
 		  	 
 	}
@@ -42,18 +43,17 @@ public class BooksController
 	@RequestMapping(value ="/{id}",method=RequestMethod.PATCH,consumes={"application/json"})
 	public Book updateBook(@RequestBody Book book)
 	{
+		  Book newBook=new Book(null, "five point someone","Chetan Bhagat", null);
 		  return bookRepo.save(book);
 		  	 
 	}
 	
 	
-	
-	//delete book
-	@RequestMapping(value ="/{id}",method=RequestMethod.DELETE)
+	@RequestMapping(value ="/",method=RequestMethod.POST,consumes={"application/json"})
 	public String deleteBook(@PathVariable("id") long id)
 	{
-		     bookRepo.deleteById(id);
-		      return " delete";
+		  Book newBook=new Book(null, "five point someone","Chetan Bhagat", null);
+		  return bookRepo.save(book);
 		  	 
 	}
 	
